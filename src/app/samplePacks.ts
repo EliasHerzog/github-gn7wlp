@@ -1,8 +1,8 @@
 export const samplePacks = [
   {
     id: 1,
-    name: 'Idk',
-    downloadCount: 799,
+    name: 'Mountain Sample Pack',
+    downloadCount: 1204,
     sampleList: [
       {  id: 1 },
       {  id: 2 }
@@ -10,7 +10,7 @@ export const samplePacks = [
   },
   {
     id: 2,
-    name: 'idk 2',
+    name: 'Silverback Gorilla Pack',
     downloadCount: 799,
         sampleList: [
       {  id: 1 },
@@ -19,8 +19,8 @@ export const samplePacks = [
   },
   {
     id: 3,
-    name: 'Idk 3',
-    downloadCount: 799,
+    name: 'Domestic Violence Sample Pack Vol.3',
+    downloadCount: 42069,
         sampleList: [
       {  id: 1 },
       {  id: 2 }

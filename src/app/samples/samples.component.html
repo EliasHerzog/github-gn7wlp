@@ -1,15 +1,18 @@
-<h2>Samplepacks</h2>
- 
-  <button (click)="download()">
-    download
-  </button>
-
-<div *ngFor="let sample of samples">
- 
-  <h3>
-    <a [title]="sample.name">
-      {{ sample.name }}
-    </a>
-  </h3> 
+<div align="center">
+  <img src="https://www.swissflex.com/schlafkulturblog/wp-content/uploads/Die-5-h%C3%B6chsten-Berge-der-Schweiz.png" alt="Italian Trulli">
+  <h2>Mountain Sample Pack</h2>
   
+    <button (click)="download()">
+      download
+    </button>
+
+  <div *ngFor="let sample of samples">
+  
+    <h3>
+      <a [title]="sample.name">
+        {{ sample.name }}
+      </a>
+    </h3> 
+    
+  </div>
 </div>

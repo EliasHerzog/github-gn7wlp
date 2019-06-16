@@ -1,12 +1,12 @@
 export const samples = [
   {
     id: 1,
-    name: 'Drums',
+    name: 'Wind',
     samplePackId: 1
   },
   {
     id: 2,
-    name: 'Some other sounds',
+    name: 'Stones',
     samplePackId: 1
   }
 ];
