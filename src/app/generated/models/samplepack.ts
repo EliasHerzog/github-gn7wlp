@@ -4,4 +4,5 @@ export interface Samplepack {
   name?: string;
   downloadCount: number;
   owner?: string;
+  sampleList?: {id: number;}[];
 }
