@@ -1,0 +1,15 @@
+<h2>Samplepacks</h2>
+ 
+<div *ngFor="let samplePack of samplePacks">
+ 
+  <h3>
+    <a [title]="samplePack.name" [routerLink]="['/samples', samplePack.id]">
+      {{ samplePack.name }}
+    </a>
+  </h3>
+ 
+  <p *ngIf="samplePack.downloadCount">
+    Downloads: {{ samplePack.downloadCount }}
+  </p>
+
+</div>
